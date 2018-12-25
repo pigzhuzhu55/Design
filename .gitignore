@@ -1,15 +1,58 @@
-# java class files
-*.class
-
-# generate files
+## eclipse
+.settings/
 bin/
-gen/
-target/
+.project
+.classpath
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+*.pydevproject
+.cproject
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
 
-# gradle files
+## Intellij idea
+out/
+*.iml
+*.ipr
+*.iws
+.idea/
+classes/
+
+## gradle
 .gradle/
 build/
+/**/build
+gradle-app.setting
+gradle-wrapper.jar
+.gradletasknamecache
+gradlew
+gradlew.bat
 
-.gradle/
+## java
+*.class
+# 包文件
+*.jar
+*.war
+*.ear
+# 虚拟机崩溃日志
+hs_err_pid*
 
-*.log
+## svn
+.svn/
+
+## maven
+/**/target/
