@@ -1,4 +1,4 @@
-package example.factory;
+package example.factory.simple;
 
 public class Apple implements Fruit{
     @Override

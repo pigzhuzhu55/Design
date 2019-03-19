@@ -1,18 +1,18 @@
-package example.factory;
+package example.factory.simple;
 
 /*
 水果加工厂，用于出售各种水果制品
  */
 public class FruitFactory {
     /*
-    获得一个喜爱的水果
+    创建一个喜爱的水果
      */
-    public Fruit getLoveFruit(String peopleName)
+    public static Fruit createFruit(int type)
     {
-        switch ( peopleName)
+        switch ( type)
         {
-            case "xiaoming":return new Apple();
-            case "xiaowang":return new Banana();
+            case 1:return new Apple();
+            case 2:return new Banana();
             default: return new Orange();
         }
     }

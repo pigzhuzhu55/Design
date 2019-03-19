@@ -1,4 +1,4 @@
-package example.factory;
+package example.factory.simple;
 
 public class Orange implements Fruit{
 

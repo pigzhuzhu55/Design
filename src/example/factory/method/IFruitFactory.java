@@ -1,4 +1,5 @@
 package example.factory.method;
 
-public class IFruitFactory {
+public interface IFruitFactory {
+    public Fruit createFruit(int type);
 }

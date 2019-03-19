@@ -1,4 +1,9 @@
 package example.factory.abstract1;
 
-public class RedApple {
+//红苹果类：具体产品
+public class RedApple implements Apple{
+    @Override
+    public void eat() {
+
+    }
 }

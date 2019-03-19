@@ -1,6 +1,6 @@
-package example.factory.simple;
+package example.factory.method;
 
-public class Banana implements Fruit{
+public class Banana extends AbstractFruit{
     @Override
     public void eat() {
         

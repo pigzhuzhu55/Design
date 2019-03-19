@@ -1,18 +1,21 @@
-package example.factory.simple;
-/*
-简单工厂模式
-其实就是针对策略模式进行的改进
-又称静态工厂方法模式
+package example.factory.method;
 
-它存在的目的很简单：定义一个用于创建对象的接口
+
+/*
+工厂方法模式
+去掉了简单工厂模式中工厂方法create的静态属性，使得它可以被子类继承,进而决定实例化哪一个类
+优点：可以一定程度上解耦，消费者和产品实现类隔离开
 
 使用者Context
  */
 public class Context {
 
     public void Main(){
-        FruitFactory factory = new FruitFactory();
-        Fruit fruit = factory.getLoveFruit("lilei");
+        //实例化一个水果的工厂
+        IFruitFactory factory = new FruitFactory();
+        //生产一个水果
+        Fruit fruit = factory.createFruit(1);
+        //吃水果
         fruit.eat();
     }
 }
