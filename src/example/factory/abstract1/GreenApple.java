@@ -4,6 +4,6 @@ package example.factory.abstract1;
 public class GreenApple implements Apple{
     @Override
     public void eat() {
-
+        System.out.println("吃一个绿苹果");
     }
 }

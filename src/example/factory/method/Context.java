@@ -10,7 +10,7 @@ package example.factory.method;
  */
 public class Context {
 
-    public void Main(){
+    public static void Main(String[] args){
         //实例化一个水果的工厂
         IFruitFactory factory = new FruitFactory();
         //生产一个水果
