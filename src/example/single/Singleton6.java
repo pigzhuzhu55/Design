@@ -7,10 +7,10 @@ package example.single;
 public enum  Singleton6 {
     INSTANCE;
 
-    private void myMethod1(){
+    public void myMethod1(){
 
     }
-    private void myMethod2(){
+    public void myMethod2(){
 
     }
 }

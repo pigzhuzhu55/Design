@@ -16,5 +16,11 @@ public class Singleton7 {
     {
         return inst;
     }
+    public void myMethod1(){
+
+    }
+    public void myMethod2(){
+
+    }
 }
 

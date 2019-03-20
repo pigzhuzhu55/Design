@@ -18,4 +18,8 @@ public class Singleton5 {
     {
         return Singleton5Instance.INSTANCE;
     }
+
+    public void myMethod1(){
+
+    }
 }
