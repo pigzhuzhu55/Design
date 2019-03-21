@@ -1,8 +1,7 @@
-package example.proxy;
+package example.proxy.statics;
 
 public class Main {
     public static void main(String[] args) {
-        //小孩1
         Child child = new Child();
         //小孩生病了
         child.setIll("Cold");

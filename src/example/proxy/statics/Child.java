@@ -1,4 +1,4 @@
-package example.proxy;
+package example.proxy.statics;
 
 
 public class Child {
@@ -9,11 +9,11 @@ public class Child {
         this.illName=illName;
     }
 
-    public void ask(Doctor doctor)
+    public void ask(Medicine medicine)
     {
         System.out.println("小孩：医生，我好像感冒了，这个药能不能吃");
 
-        boolean canEat = doctor.check(illName);
+        boolean canEat = medicine.check(illName);
 
         if(canEat)
         {

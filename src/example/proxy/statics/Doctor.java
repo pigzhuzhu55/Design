@@ -1,7 +1,7 @@
-package example.proxy;
+package example.proxy.statics;
 
 /*
-家长
+医生
  */
 public class Doctor implements Medicine {
 
