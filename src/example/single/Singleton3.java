@@ -17,4 +17,7 @@ public class Singleton3 {
         }
         return  singleton;
     }
+    public void myMethod1(){
+
+    }
 }

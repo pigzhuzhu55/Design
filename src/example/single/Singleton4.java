@@ -22,4 +22,7 @@ public class Singleton4 {
         }
         return singleton;
     }
+    public void myMethod1(){
+
+    }
 }
