@@ -9,19 +9,19 @@ public class Main {
         child.setIll("胃痛");
 
         //发现999感冒灵
-        Medicine medicine= new Medicine999();
+        Medicine999 medicine999= new Medicine999();
         //医院代理卖这个药
-        Medicine medicine999 = (Medicine)Hospital.proxy(medicine);
+        Medicine medicine1 = (Medicine)Hospital.proxy(medicine999);
         //小孩去医院看医生，并开药
-        child.ask(medicine999);
+        child.ask(medicine1);
 
         System.out.println("-------");
         //发现吗丁啉
-        Medicine medicine1 = new Domperidone();
+        Domperidone domperidone = new Domperidone();
         //医院代理卖这个药
-        Medicine domperidone = (Medicine)Hospital.proxy(medicine1);
+        Medicine medicine12 = (Medicine)Hospital.proxy(domperidone);
         //小孩去医院看医生，并开药
-        child.ask(domperidone);
+        child.ask(medicine12);
 
         System.out.println("-------");
 
