@@ -10,7 +10,7 @@ public class Singleton7 {
     private Singleton7(){
     }
 
-    private static Singleton7 inst = new Singleton7();
+    private final static Singleton7 inst = new Singleton7();
 
     public static Singleton7 getInstance()
     {
