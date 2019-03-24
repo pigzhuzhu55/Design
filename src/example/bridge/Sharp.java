@@ -1,4 +1,5 @@
 package example.bridge;
 
-public class Sharp {
+public abstract class Sharp  implements Color{
+    public abstract void draw();
 }

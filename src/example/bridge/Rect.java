@@ -1,15 +1,19 @@
 package example.bridge;
 
-public class GreenRect extends Sharp {
+public class Rect extends Sharp {
 
-    public GreenRect(Color color){
+    public Rect(Color color){
         this.color = color;
     }
     private Color color;
 
     @Override
     public void draw() {
-        System.out.println("画"+this.color+"Rect");
+        System.out.println("画"+this.color.getColor()+"长方形");
     }
 
+    @Override
+    public String getColor() {
+        return this.color.getColor();
+    }
 }

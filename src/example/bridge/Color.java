@@ -1,4 +1,5 @@
 package example.bridge;
 
-public class Color {
+public interface Color {
+    public String getColor();
 }
