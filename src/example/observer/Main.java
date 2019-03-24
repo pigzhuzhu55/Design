@@ -3,6 +3,7 @@ package example.observer;
 
 /*
 观察者模式
+代码还有并发问题
  */
 public class Main {
 
