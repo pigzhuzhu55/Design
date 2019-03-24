@@ -6,11 +6,17 @@ package example.state;
 public class Main {
 
     public static void main(String[] args){
+        //先定义一个咖啡机
         CoffeeMachine coffeeMachine = new CoffeeMachine(10);
+        //我要买
         coffeeMachine.buy();
+        //我要支付
         coffeeMachine.pay();
+        //我要买
         coffeeMachine.buy();
+        //拿咖啡
         coffeeMachine.getCoffee();
+        //退货
         coffeeMachine.refund();
     }
 }

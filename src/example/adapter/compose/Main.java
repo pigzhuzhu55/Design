@@ -3,6 +3,7 @@ package example.adapter.compose;
 
 /*
 通过类组合，内部对象
+USB接口演示
  */
 public class Main {
 

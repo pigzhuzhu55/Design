@@ -8,11 +8,15 @@ package example.responsibility;
 public class Main {
     public static void main(String[] args) {
 
+        //定义一套煮饭流程
         CookChain cookChain = new CookChain();
+        //增加步骤放水
         cookChain.addCookStep(new WaterInto());
+        //增加步骤放米
         cookChain.addCookStep(new RiceInto());
+        //增加步骤起火
         cookChain.addCookStep(new FireOn());
-
+        //开煮咯
         cookChain.cooking(new Object());
     }
 }
