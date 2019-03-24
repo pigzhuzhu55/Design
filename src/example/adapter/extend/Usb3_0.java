@@ -1,8 +1,8 @@
 package example.adapter.extend;
 
 /*
-USB 1.0接口
+USB 3.0接口
  */
-public interface Usb1_0 {
-    void isUsb10();
+public interface Usb3_0 {
+    void isUsb30();
 }

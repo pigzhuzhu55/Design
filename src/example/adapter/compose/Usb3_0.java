@@ -1,4 +1,4 @@
-package example.adapter.extend;
+package example.adapter.compose;
 
 /*
 USB 3.0接口
