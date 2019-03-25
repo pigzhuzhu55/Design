@@ -30,6 +30,13 @@ java 设计模式学习
         <td></td>
     </tr>
     <tr>
+        <td><strong>装饰者模式</strong><a href="component/readme.MD">+</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
         <td><strong>桥接模式</strong><a href="bridge/readme.MD">+</a></td>
         <td></td>
         <td></td>
