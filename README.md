@@ -134,6 +134,12 @@ java 设计模式学习
          <td></td>
          <td></td>
      </tr>
+      <tr><td><strong>备忘录模式</strong></td>
+           <td><a href="https://github.com/pigzhuzhu55/Design/tree/master/src/example/memento">+</a></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
 </table>
 
 
