@@ -114,11 +114,26 @@ java 设计模式学习
         <td></td>
     </tr>
     <tr><td><strong>访问者模式</strong></td>
-            <td><a href="https://github.com/pigzhuzhu55/Design/tree/master/src/example/visitor">+</a></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+        <td><a href="https://github.com/pigzhuzhu55/Design/tree/master/src/example/visitor">+</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>  
+    <tr><td><strong>组合模式</strong></td>
+         <td><a href="https://github.com/pigzhuzhu55/Design/tree/master/src/example/composite">+</a></td>
+         <td></td>
+         <td></td>
+         <td></td>
+     </tr>
+     <tr><td><strong>享元模式</strong></td>
+          <td colspan="4">目的减少对象的数量，代码略</td>
+      </tr>
+       <tr><td><strong>原型模式</strong></td>
+          <td><a href="https://github.com/pigzhuzhu55/Design/tree/master/src/example/prototype">+</a></td>
+         <td></td>
+         <td></td>
+         <td></td>
+     </tr>
 </table>
 
 
