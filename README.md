@@ -140,6 +140,12 @@ java 设计模式学习
           <td></td>
           <td></td>
       </tr>
+      <tr><td><strong>迭代器模式</strong></td>
+           <td><a href="https://github.com/pigzhuzhu55/Design/tree/master/src/example/iterator">+</a></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
 </table>
 
 
