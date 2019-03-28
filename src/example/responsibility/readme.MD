@@ -22,4 +22,4 @@
 - 1、不能保证请求一定被接收。 
 - 2、系统性能将受到一定影响，而且在进行代码调试时不太方便，可能会造成循环调用。 
 - 3、可能不容易观察运行时的特征，有碍于除错。)
-- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/responsibility/21.png?raw=true
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/responsibility/21.svg?raw=true

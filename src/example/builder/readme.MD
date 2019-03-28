@@ -11,4 +11,4 @@
 - 优点： 1、建造者独立，易扩展。 2、便于控制细节风险。
 - 缺点： 1、产品必须有共同点，范围有限制。 2、如内部变化复杂，会有很多的建造类。
 - 使用场景： 1、需要生成的对象具有复杂的内部结构。 2、需要生成的对象内部属性本身相互依赖。
-- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/builder/5.png?raw=true)
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/builder/5.svg?raw=true)
