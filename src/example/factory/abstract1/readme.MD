@@ -12,4 +12,4 @@
 - 也就是说，工厂方法模式提供的所有产品都是衍生自同一个接口或抽象类，而抽象工厂模式所提供的产品则是衍生自不同的接口或抽象类。
 
 - 注意：本例FruitFactory使用的是接口，你可以改成抽象类，一样的道理
-- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/factory/abstract1/10.svg?raw=true)
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/factory/abstract1/10.svg)

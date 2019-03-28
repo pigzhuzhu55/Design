@@ -19,4 +19,4 @@
 - 1、状态模式的使用必然会增加系统类和对象的个数。 
 - 2、状态模式的结构与实现都较为复杂，如果使用不当将导致程序结构和代码的混乱。
 - 3、状态模式对"开闭原则"的支持并不太好，对于可以切换状态的状态模式，增加新的状态类需要修改那些负责状态转换的源代码，否则无法切换到新增状态，而且修改某个状态类的行为也需修改对应类的源代码。
-- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/state/22.svg?raw=true)
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/state/22.svg)

@@ -15,5 +15,5 @@
 - 缺点：在使用组合模式时，其叶子和树枝的声明都是实现类，而不是接口，违反了依赖倒置原则。
 
 - 使用场景：部分、整体场景，如树形菜单，文件、文件夹的管理。
-- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/composite/8.svg?raw=true)
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/composite/8.svg)
 

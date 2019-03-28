@@ -13,4 +13,4 @@
 - 缺点：不符合开闭原则，如果要改东西很麻烦，继承重写都不合适。
 
 - 使用场景： 1、为复杂的模块或子系统提供外界访问的模块。 2、子系统相对独立。 3、预防低水平人员带来的风险。
-- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/facade/9.svg?raw=true)
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/facade/9.svg)

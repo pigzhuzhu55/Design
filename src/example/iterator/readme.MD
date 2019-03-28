@@ -5,4 +5,4 @@
 
 - 缺点：由于迭代器模式将存储数据和遍历数据的职责分离，增加新的聚合类需要对应增加新的迭代器类，类的个数成对增加，这在一定程度上增加了系统的复杂性。
 
-- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/iterator/13.svg?raw=true)
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/iterator/13.svg)
