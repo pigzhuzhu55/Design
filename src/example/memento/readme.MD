@@ -10,3 +10,4 @@
 - 缺点：消耗资源。如果类的成员变量过多，势必会占用比较大的资源，而且每一次保存都会消耗一定的内存。
  
 - 使用场景： 1、需要保存/恢复数据的相关状态场景。 2、提供一个可回滚的操作。
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/memento/15.png?raw=true)

@@ -15,3 +15,4 @@
 - 使用场景： 1、扩展一个类的功能。 2、动态增加功能，动态撤销。
 
 - 注意事项：可代替继承。
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/component/7.png?raw=true)

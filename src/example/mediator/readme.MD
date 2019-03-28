@@ -16,3 +16,4 @@
 - 使用场景： 
 - 1、系统中对象之间存在比较复杂的引用关系，导致它们之间的依赖关系结构混乱而且难以复用该对象。
 - 2、想通过一个中间类来封装多个类中的行为，而又不想生成太多的子类。
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/mediator/14.png?raw=true)

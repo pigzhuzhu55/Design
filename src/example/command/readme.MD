@@ -10,3 +10,4 @@
 - 缺点：使用命令模式可能会导致某些系统有过多的具体命令类。
 
 - 使用场景：认为是命令的地方都可以使用命令模式，比如： 1、GUI 中每一个按钮都是一条命令。 2、模拟 CMD。
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/command/6.png?raw=true)

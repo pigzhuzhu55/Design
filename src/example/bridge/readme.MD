@@ -16,3 +16,4 @@
 - 步骤：
 - 1、抽象：分别对各个维度进行抽象，将共同部分抽象出来
 - 2、组合：将抽象组合在一起（桥接）
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/bridge/4.png?raw=true)

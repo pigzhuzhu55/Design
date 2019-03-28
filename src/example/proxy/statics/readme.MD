@@ -6,3 +6,4 @@
 - 不改变原类的代码，而增强原类对象的功能(前置、后置、环绕、异常等处理逻辑)，这样好像跟装饰者模式很像，
 对的，但是目的区别在于，代理模式意在代理中控制使用者对目标对象的访问，以及功能增强。
 - 静态代理：手动编写的.class文件，在程序运行前就已经存在了。
+- ![UML示意图](https://github.com/pigzhuzhu55/Design/blob/master/src/example/proxy/statics/20.png?raw=true)
